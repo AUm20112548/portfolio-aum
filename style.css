@@ -1,22 +1,19 @@
 /* GENERAL */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=EB+Garamond:wght@800&family=Itim&family=Nanum+Myeongjo:wght@700&display=swap');
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Itim', cursive;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 html {
   scroll-behavior: smooth;
+  background-color: rgb(240, 221, 205);
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgba(62, 160, 240, 0.842);
 }
 
 /* TRANSITION */
@@ -49,9 +46,9 @@ nav {
   
 
 a {
-  color: black;
+  color: rgba(14, 33, 143, 0.815);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(73, 116, 209);
 }
 
 a:hover {
@@ -238,7 +235,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(253, 253, 253) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -437,3 +434,6 @@ footer {
 footer p {
   text-align: center;
 }
+.about-me{
+  color: rgb(141, 111, 224);
+} 
